@@ -17,9 +17,9 @@ public class Main {
         //list files on /download
         repo.listFilesPath(client,"/download");
         //download file archivo.doc
-        //repo.downloadFile(client,"/upload/archivo.doc","archivo2.doc");
+        repo.downloadFile(client,"/upload/archivo.doc","archivo2.doc");
         //upload file
-        //repo.uploadFile(client,"archivo2.doc","/upload/archivo2.doc");
+        repo.uploadFile(client,"archivo2.doc","/upload/archivo2.doc");
         //disconect from server
         repo.disconnect(client);
     }
